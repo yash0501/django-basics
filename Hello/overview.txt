@@ -1,0 +1,11 @@
+static folder takes all the static files like images, data fetch files and all other content which dows not change with time.
+
+templates folder takes all the templates which are to be displayed to the user on taking a particular end point.
+
+Hello was our main project and home was our app in the project. 
+Hello is having a urls.py file where we will define paths for our project and different apps in it.
+
+Now home is our app here.
+In home, we are having similar urls.py file where all the endpoint functions are written.
+
+from urls.py we move to views.py that helps in generating and rendering frontend.
